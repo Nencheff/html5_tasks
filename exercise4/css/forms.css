@@ -1,0 +1,41 @@
+#CuSubmit {
+	background-image: url("../images/submit.gif");
+    border: 0 none;
+    cursor: pointer;
+	height: 38px;
+	width: 86px;
+	
+}
+#formtable {
+	border: 0 none;
+	border-spacing: 7px;
+}
+.table{
+	background-color: #00dd49;
+	border: 1px solid black;
+}
+.result{
+	font-family: Verdana;
+	text-align: right;
+	width: 100%;
+	border: black;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+input[type="button"]{
+	background-color: #00dd49;
+	color: black;
+	border: none;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	font-size: 16px;
+}
+input[value="0"]{
+	width: 100%;
+}		
+input[type="button"]:hover {
+	background-color: #47f37f;
+}
